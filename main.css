@@ -28,3 +28,18 @@
     border-radius: 10px;
     background-color: aqua;
 }
+
+.margin {
+    height: 20vh;
+    width: 60vw;
+    background-color: magenta;
+    margin: auto;
+    margin-top: 15px
+}
+
+.marginChild {
+    height: 10px;
+    width: 40vw;
+    background-color: bisque;
+    margin: inherit;
+}
