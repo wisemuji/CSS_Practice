@@ -57,3 +57,11 @@
     box-sizing: border-box;
     background-color: palegoldenrod;
 }
+
+.unorderedList {
+    list-style-type: square;
+}
+
+.orderedList {
+    list-style-type: lower-greek;
+}
