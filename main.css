@@ -1,12 +1,14 @@
 .rgb {
     height: 50px;
     width: 50px;
+    /* 마지막 값은 투명도 */
     background-color: rgba(25, 99, 71, 0.5)
 }
 
 .hsl {
     height: 50px;
     width: 50px;
+    /* 마지막 값은 투명도 */
     background-color: hsla(9, 100%, 64%, 0.5)
 }
 
@@ -30,9 +32,12 @@
 }
 
 .margin {
+    /* 모니터의 높이를 기준 */
     height: 20vh;
+    /* 모니터의 너비를 기준 */
     width: 60vw;
     background-color: magenta;
+    /* 가운데 정렬 */
     margin: auto;
     margin-top: 15px
 }
@@ -41,6 +46,7 @@
     height: 10px;
     width: 40vw;
     background-color: bisque;
+    /* 부모의 마진 속성 상속 */
     margin: inherit;
 }
 
@@ -54,6 +60,7 @@
     height: 100px;
     width: 200px;
     padding: 15px;
+    /* width = padding + width 의 값을 가지는데 이를 해제 */
     box-sizing: border-box;
     background-color: palegoldenrod;
 }
@@ -76,6 +83,7 @@
 }
 
 .tableEx {
+    /* single border  */
     border-collapse: collapse;
     width: 600px;
     margin: auto;
@@ -87,8 +95,12 @@
 
 .tableEx td {
     height: 40px;
+    /* 세로 기준 정렬 */
     vertical-align: bottom;
 }
+
+
+/* 짝수번째의 요소에만 색 넣기(줄무늬) */
 
 .tableEx tr:nth-child(even) {
     background-color: #f5f5f5;
