@@ -1,11 +1,29 @@
-.rgbTest {
+.rgb {
     height: 50px;
     width: 50px;
     background-color: rgba(25, 99, 71, 0.5)
 }
 
-.hslTest {
+.hsl {
     height: 50px;
     width: 50px;
     background-color: hsla(9, 100%, 64%, 0.5)
+}
+
+.border {
+    height: 30px;
+    width: 80vw;
+    /* border-style: double;
+    border-style: outset;
+    border-style: ridge; */
+    border-style: solid dotted;
+    border-width: medium;
+    border-color: red green tomato wheat
+}
+
+.leftBorder {
+    height: 30px;
+    width: 80vw;
+    border-left: 6px solid red;
+    background-color: aqua;
 }
