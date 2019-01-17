@@ -109,3 +109,12 @@
 .tableEx tr:hover {
     background-color: #f0f0f0;
 }
+
+.sticky {
+    position: -webkit-sticky;
+    /* 사파리 */
+    position: sticky;
+    top: 0;
+    background-color: tomato;
+    border: 2px solid red;
+}
