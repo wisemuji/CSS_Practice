@@ -118,3 +118,18 @@
     background-color: tomato;
     border: 2px solid red;
 }
+
+.img1 {
+    float: right;
+}
+
+.clearfix {
+    border: 3px solid tomato;
+    padding: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
